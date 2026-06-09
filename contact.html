@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Divhani Thiba</title>
+     <link rel="stylesheet" href="css/contact.css">
+ <link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" href="css/responsive.css">
+ <script src="https://kit.fontawesome.com/a97b0f0a77.js" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+    <header id="navbar"></header>
+
+
+
+    
+                <h1 class="shake">Reach out!</h1>
+
+ <div class="input container">
+        <form id="contact-form" action="submit_form.php" method="POST" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn-primary">Submit</button>
+        </form>
+
+        <script src="js/form-validation.js"></script>
+
+    <div class="contact-section">
+        <h1>Contact Me</h1>
+        
+        <ul class="contact-info">
+            <li>
+                <strong><i class="fa-solid fa-evelope"></i>Email</strong>
+                 <a href="mailto:divhanithibajr@gmail.com">divhanithibajr@gmail.com</a>
+                 
+            </li>
+            <li>
+                <strong><i class="fa-solid fa-phone"></i></strong>
+                <a href="tel:+27 064 023 3070">+27 064 023 3070</a>
+            </li>
+            //icons from https://fontawesome.com?utm_source=chatgpt.com
+        </ul>
+    </div>
+    <script src="navigation.js"></script>
+    <script src="js/theme.js"></script>
+
+   
+
+        <!-- FOOTER -->
+  
+
+</body>
+  <footer>
+        <p>© 2026 Divhani Thiba</p>
+    </footer>
+</html>
